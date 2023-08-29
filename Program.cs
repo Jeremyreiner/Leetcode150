@@ -4,4 +4,6 @@ using demo.ArraysAndStrings;
 
 Console.WriteLine("Hello, World!");
 
-var mergeArray = new MergeArray();
+var solution = new Solution();
+
+solution.Rotate();

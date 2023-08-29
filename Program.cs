@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using demo.ArraysAndStrings;
+using LeetCode.ArraysAndStrings;
 
 Console.WriteLine("Hello, World!");
 

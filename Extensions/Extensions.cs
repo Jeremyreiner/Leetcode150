@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
 namespace LeetCode.Extensions
 {
@@ -10,7 +6,7 @@ namespace LeetCode.Extensions
     {
         public static Version ValidVersion(this string version)
         {
-            if (Version.TryParse(version, out Version v1))
+            if (Version.TryParse(version, out var v1))
             {
                 var build = v1.Build != -1
                     ? v1.Build

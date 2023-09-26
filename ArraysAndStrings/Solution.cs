@@ -160,7 +160,7 @@ namespace LeetCode.ArraysAndStrings
 
             var result = 0;
 
-            for (int i = 0; i < s.Length - 1; i++)
+            for (var i = 0; i < s.Length - 1; i++)
             {
                 if (romanDigits[s[i]] < romanDigits[s[i + 1]])
                     result -= romanDigits[s[i]];
@@ -173,7 +173,6 @@ namespace LeetCode.ArraysAndStrings
 
         public int VersionCompare(string version1, string version2)
         {
-
             var v1 = version1.ValidVersion();
             var v2 = version2.ValidVersion();
 
